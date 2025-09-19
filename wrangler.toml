@@ -1,4 +1,4 @@
-name = "live-chat-backend"
+name = "live-chat-bavkend"
 main = "src/index.js"
 compatibility_date = "2023-09-01"
 
