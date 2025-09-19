@@ -1,3 +1,10 @@
-name = "chat-backend"
+name = "live-chat-backend"
 main = "src/index.js"
 compatibility_date = "2023-09-01"
+
+[[durable_objects.bindings]]
+name = "CHATROOM"
+class_name = "ChatRoom"
+
+[vars]
+ROOM_NAME = "global"
