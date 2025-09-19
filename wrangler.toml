@@ -8,3 +8,7 @@ class_name = "ChatRoom"
 
 [vars]
 ROOM_NAME = "global"
+
+[[migrations]]
+tag = "v1"                 
+new_classes = ["ChatRoom"] 
